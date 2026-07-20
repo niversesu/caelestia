@@ -8,8 +8,8 @@ return {
     -- Apps
     terminal                   = "foot",
     browser                    = "firefox",
-    editor                     = "codium",
-    fileExplorer               = "thunar",
+    editor                     = "code",
+    fileExplorer               = "nautilus",
     audioSettings              = "pavucontrol",
 
     -- Touchpad
@@ -50,8 +50,8 @@ return {
     -- Misc
     volumeStep                 = 10,
     volumeMax                  = 100,
-    cursorTheme                = "sweet-cursors",
-    cursorSize                 = 24,
+    cursorTheme                = "rose-pine-hyprcursor",
+    cursorSize                 = 36,
     sleepGestureCmd            = "systemctl suspend-then-hibernate",
 
     ------------------
@@ -59,7 +59,7 @@ return {
     ------------------
 
     -- Workspaces
-    kbMoveWinToWs              = "SUPER + ALT",
+    kbMoveWinToWs              = "SUPER + SHIFT",
     kbMoveWinToWsGroup         = "CTRL + SUPER + ALT",
     kbGoToWs                   = "SUPER",
     kbGoToWsGroup              = "CTRL + SUPER",
@@ -79,7 +79,7 @@ return {
     kbPinWindow                = "SUPER + P",
     kbWindowFullscreen         = "SUPER + F",
     kbWindowBorderedFullscreen = "SUPER + ALT + F",
-    kbToggleWindowFloating     = "SUPER + ALT + space",
+    kbToggleWindowFloating     = "SUPER + A",
     kbCloseWindow              = "SUPER + Q",
 
     -- Special workspaces toggles
